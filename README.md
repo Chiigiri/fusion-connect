@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# 🚀 FusionConnect
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**FusionConnect** is a DeFi integration demo that simulates intent-based token swaps using a smart contract connected to a frontend. Inspired by protocols like 1inch Fusion and built for ETHGlobal hackathons, this project shows how a developer can prototype on-chain trading logic with live UI interaction.
 
-## Available Scripts
+## 🌐 Live Demo
+👉 https://fusion-connect.vercel.app  
+✅ Connect your wallet  
+✅ Simulate a token swap
 
-In the project directory, you can run:
+## 📂 GitHub Repo
+https://github.com/Chiigiri/fusion-connect
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## ⚙️ Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Solidity (Smart Contracts)
+- React (Frontend)
+- Ethers.js
+- Hardhat
+- MetaMask Integration
+- TailwindCSS (optional, minimal styling)
+- Deployed on Sepolia Testnet
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🧠 Features
 
-### `npm run build`
+- Connects MetaMask wallet
+- Simulates a token swap through a mocked Fusion Router
+- Interacts with deployed smart contract
+- Fully testnet-based (safe for demos)
+- Responsive frontend, beginner-friendly code
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📜 Contracts Deployed On
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- `FusionConnect.sol`: [`0x1CF0EdEe0825D3FD20da07A38BFa583a7fA68B6A`](https://sepolia.etherscan.io/address/0x1CF0EdEe0825D3FD20da07A38BFa583a7fA68B6A)
+- `MockFusionRouter.sol`: [`0x0b372dDd14140c335fdC84275e640b2FDFaCF8f1`](https://sepolia.etherscan.io/address/0x0b372dDd14140c335fdC84275e640b2FDFaCF8f1)
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🎯 Why This Project?
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+ETHGlobal hackathons look for:
+- Developers who can finish & ship
+- Projects that explore real DeFi ideas
+- MVPs that could be extended into full products
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**FusionConnect** fits that criteria by showing a functioning DeFi simulation with an on-chain contract and wallet UX.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+---
 
-## Learn More
+## 🚧 Future Improvements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Integrate real token addresses on Sepolia
+- Add token approval flow
+- Replace mock router with actual 1inch Fusion Router
+- Add cross-chain messaging with LayerZero / Chainlink CCIP
+- Enable slippage controls, swap history
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+## 👨‍💻 Built By
+Abdulmuqtadir Abubakar ([@Chiigiri](https://github.com/Chiigiri))  
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
