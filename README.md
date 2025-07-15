@@ -19,7 +19,6 @@ https://github.com/Chiigiri/fusion-connect
 - Ethers.js
 - Hardhat
 - MetaMask Integration
-- TailwindCSS (optional, minimal styling)
 - Deployed on Sepolia Testnet
 
 ---
