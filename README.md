@@ -41,16 +41,7 @@ https://github.com/Chiigiri/fusion-connect
 
 ---
 
-## 🎯 Why This Project?
 
-ETHGlobal hackathons look for:
-- Developers who can finish & ship
-- Projects that explore real DeFi ideas
-- MVPs that could be extended into full products
-
-**FusionConnect** fits that criteria by showing a functioning DeFi simulation with an on-chain contract and wallet UX.
-
----
 
 ## 🚧 Future Improvements
 
